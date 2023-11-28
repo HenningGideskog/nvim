@@ -8,11 +8,11 @@ linux, but will probably work on other distributions as well.
 First, make sure you have Neovim installed. init and update the submodule for vim-plug, written by Junegunn Choi,
 github.com/junegunn.
 
-    git --submodule update --init --recursive
+    git submodule update --init --recursive
 
 Next, install the configuration files in this repository:
 
-    cp nvim_config ~/.config/nvim
+    cp -r nvim_config ~/.config/nvim
 
 Also, install the plug.vim from vim-plug:
 
